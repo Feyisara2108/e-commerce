@@ -1,36 +1,117 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🛒 E-commerce Product Page
 
-## Getting Started
+A **responsive e-commerce product page** built with **Next.js** and **Tailwind CSS**.  
+The project replicates a modern online shopping experience with clean UI, interactive features, and mobile-friendly design.
 
-First, run the development server:
+---
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+## 🚀 Features
+- 📱 **Responsive design** (mobile, tablet, desktop)  
+- 🖼️ **Product showcase with image gallery**  
+- 🛍️ **Add to cart functionality**  
+- 🔢 **Quantity selector**  
+- 🗑️ **Remove items from cart**  
+- 🌗 **Clean and minimal UI with Tailwind CSS**  
+- ⚡ **Powered by Next.js for performance**
+
+---
+
+## 🛠️ Tech Stack
+- [Next.js 15](https://nextjs.org/) (React framework)  
+- [Tailwind CSS](https://tailwindcss.com/) (utility-first styling)  
+- [TypeScript](https://www.typescriptlang.org/) (type safety)  
+
+---
+
+## 📂 Project Structure
+
+```
+ecommerce-product-page/
+├── public/                 # Static assets (images, icons, etc.)
+├── src/
+│   ├── app/               # Next.js App Router
+│   │   ├── page.tsx       # Main product page
+│   │   ├── layout.tsx     # Layout wrapper
+│   │   └── globals.css    # Global Tailwind styles
+│   ├── components/        # Reusable components (Navbar, ProductCard, Cart, etc.)
+├── .gitignore
+├── package.json
+├── tailwind.config.js
+├── tsconfig.json
+└── README.md
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+---
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## ⚙️ Installation & Setup
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+Clone the repository:
+```bash
+git clone https://github.com/Feyisara2108/ecommerce-product-page.git
+cd ecommerce-product-page
+```
 
-## Learn More
+Install dependencies:
+```bash
+npm install
+```
 
-To learn more about Next.js, take a look at the following resources:
+Run the development server:
+```bash
+npm run dev
+```
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Open in your browser: 👉 http://localhost:3000
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+Build for production:
+```bash
+npm run build
+npm start
+```
 
-## Deploy on Vercel
+---
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## 🌐 Live Demo
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+[View Live Demo](https://e-commerce-psi-kohl-81.vercel.app/)
+
+---
+
+## 📸 Screenshots
+
+### 💻 Desktop View
+*Add screenshot here (e.g., `![alt text](image.png)`)*
+
+### 📱 Mobile View
+*Add screenshot here (e.g., `![alt text](image-1.png)`)*
+*Add screenshot here (e.g., `![alt text](image-2.png)`)* 
+
+---
+
+## 🤝 Contributing
+
+Contributions are welcome! If you'd like to improve the project:
+1. Fork the repo
+2. Create a new branch (`git checkout -b feature-name`)
+3. Commit changes (`git commit -m "Add feature"`)
+4. Push branch (`git push origin feature-name`)
+5. Create a Pull Request
+
+---
+
+## 📜 License
+
+This project is licensed under the **MIT License** – free to use and modify.
+
+---
+
+## 👩‍💻 Author
+
+**Feyisara Arowolo**
+- GitHub: [@Feyisara2108](https://github.com/Feyisara2108)
+
+---
+
+## 🏷️ Tags
+
+#AltSchoolFE #AltSchool24 #NextJS #Ecommerce #React #TypeScript
